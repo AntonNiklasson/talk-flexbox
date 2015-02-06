@@ -5,6 +5,13 @@
 	<title>Flexbox | Anton Niklasson @ Peking Hackers February 2015</title>
 	<link rel="stylesheet" href="node_modules/reveal/index.css">
 	<link rel="stylesheet" href="node_modules/reveal/theme/night.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<style>
+		.reveal i.fa{
+			font-family: 'FontAwesome';
+			font-style: normal;
+		}
+	</style>
 </head>
 <body>
 
@@ -17,16 +24,15 @@
 		</section>
 
 		<section>
-			<h1>Hi!</h1>
+			<h1>Hej!</h1>
+			<p><i class="fa fa-home"></i> antonniklasson.se</p>
+			<p><i class="fa fa-twitter"></i> AntonNiklasson</p>
 		</section>
 
 		<section>
-			<h2>This is the second slide</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse perspiciatis suscipit, nulla omnis labore vel, tempore, dolorem atque quam nisi inventore! Et debitis, sunt error nisi neque consequuntur ullam?</p>
-		</section>
-
-		<section>
-			<h2>What is Flexbox?</h2>
+			<video loop autoplay>
+				<source src="assets/peter.mp4" type="video/mp4">
+			</video>
 		</section>
 
 	</div>
@@ -37,7 +43,7 @@
 	Reveal.initialize({
 		controls: false,
 		progress: false,
-		history: false,
+		history: true,
 		slideNumber: false,
 		overview: false,
 		transition: 'concave',
