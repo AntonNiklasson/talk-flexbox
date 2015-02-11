@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Flexbox | Anton Niklasson @ Peking Hackers February 2015</title>
 	<link rel="stylesheet" href="node_modules/reveal/index.css">
-	<link rel="stylesheet" href="node_modules/reveal/theme/night.css">
+	<link rel="stylesheet" href="node_modules/reveal/theme/solarized.css">
+	<link rel="stylesheet" type="text/css" href="zenburn.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
 	<style>
 		.reveal i.fa{
@@ -20,7 +21,7 @@
 
 		<section>
 			<h2>Peking Hackers</h2>
-			<h3>29 februari 2015</h3>
+			<h3>25 februari 2015</h3>
 		</section>
 
 		<section>
@@ -30,14 +31,24 @@
 		</section>
 
 		<section>
-			<video loop autoplay>
-				<source src="assets/peter.mp4" type="video/mp4">
-			</video>
+			<img src="assets/peter.gif">
+		</section>
+
+		<section>
+			<h2>CSS är svårt!</h2>
+			<pre class="fragment css"><code>.content .widget {
+	float: left;
+	width: 33.333%;
+}</code></pre>
+			<pre class="fragment css"><code>.site > .content + #navigation ul li:nth-child(2n + 3) a:visited::before {
+	margin-bottom: 0 !important;
+}</code></pre>
 		</section>
 
 	</div>
 </div>
 
+<script type="node_modules/highlight/lib/highlight.js"></script>
 <script src="node_modules/reveal/index.js"></script>
 <script>
 	Reveal.initialize({
